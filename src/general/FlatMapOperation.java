@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class FlatMapOperation {
 
     public static void main(String[] args) {
-        //flatmapdemo();
+        flatmapdemo();
         flatmapcollectionDemo();
     }
 
@@ -22,7 +22,7 @@ public class FlatMapOperation {
         list.add(19);
         list.add(13);
 
-        list.stream().flatMap(num -> Stream.of(num + " plus")).forEach(str -> System.out.printf("entry is : %s\n",str));
+        list.stream().flatMap(num -> Stream.of(num + " plus")).filter(str -> str.contains("10") || str.contains("26")).forEach(str -> System.out.printf("string is : %s\n",str));
     }
 
     public static void flatmapcollectionDemo() {
@@ -34,7 +34,7 @@ public class FlatMapOperation {
         list.add(Arrays.asList("Kunal3","Rahul3","Bunty3"));
         list.add(Arrays.asList("Kunal4","Rahul4","Bunty4"));
 
-        list.stream().flatMap(list1 -> list1.stream()).forEach(str -> System.out.printf("name is : %s\n",str));
+        list.stream().flatMap(list1 -> list1.stream()).filter(name -> name.contains("2") || name.contains("3") || name.contains("4")).forEach(name -> System.out.printf("name is : %s\n", name));
     }
 
 

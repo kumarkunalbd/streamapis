@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c2c638f-9ea2-463d-8e97-3a1f6ac4ddbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/general/FlatMapOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/general/FlatMapOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general/FlatMapOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735992362317</updated>
       <workItem from="1735992363712" duration="7385000" />
-      <workItem from="1736052126381" duration="1695000" />
+      <workItem from="1736052126381" duration="2973000" />
     </task>
     <servers />
   </component>
